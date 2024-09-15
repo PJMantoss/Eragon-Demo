@@ -1,5 +1,5 @@
-import react from 'react';
 import Header from '../components/Header';
+import './page.css';
 
 const AccountPlanA = () => {
     return(
@@ -7,38 +7,38 @@ const AccountPlanA = () => {
             <Header />
             <div className='content'>
                 <nav className='sidebar'>
-                    <ul className='side-nav__item'>
-                        <li>
+                    <ul className='side-nav'>
+                        <li className='side-nav__item'>
                             <a href="#" className='side-nav__link' rel="noopener noreferrer">
                                 To-do
                             </a>
                         </li>
 
-                        <li>
+                        <li className='side-nav__item'>
                             <a href="#" className='side-nav__link' rel="noopener noreferrer">
                                 Dashboard
                             </a>
                         </li>
 
-                        <li>
+                        <li className='side-nav__item'>
                             <a href="#" className='side-nav__link' rel="noopener noreferrer">
                                 Territory Analysis
                             </a>
                         </li>
 
-                        <li>
+                        <li className='side-nav__item'>
                             <a href="#" className='side-nav__link' rel="noopener noreferrer">
                                 Cadence Generation
                             </a>
                         </li>
 
-                        <li>
+                        <li className='side-nav__item'>
                             <a href="#" className='side-nav__link' rel="noopener noreferrer">
                                 Call Preparation
                             </a>
                         </li>
 
-                        <li>
+                        <li className='side-nav__item side-nav__item--active'>
                             <a href="#" className='side-nav__link' rel="noopener noreferrer">
                                 Account Plan
                             </a>

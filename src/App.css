@@ -5,6 +5,12 @@
   scroll-behavior: smooth;
 }
 
+body {
+  width: 100%;
+  min-width: 90rem;
+  margin: auto;
+}
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;

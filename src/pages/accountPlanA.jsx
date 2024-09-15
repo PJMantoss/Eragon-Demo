@@ -68,16 +68,12 @@ const AccountPlanA = () => {
                         <img src="./images/addnew.png" alt="Add New Account" />
                     </div>
 
-                    <div className='searchDiv'>
-                        <form action="#" class="search">
-                            <button type="submit" class="search__button">
-                                <svg class="search__icon">
-                                    <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
-                                </svg>
-                            </button>
-                        </form>
+                    <form action="#" class="search">
+                        <button type="submit" class="search__button">
+                            <img src="./images/search.png" alt="search icon" className='search__icon' />
+                        </button>
                         <input type="text" class="search__input" placeholder="In a few sentences, what would you like to know about the account?" />
-                    </div>
+                    </form>
                 </main>
             </div>
         </>

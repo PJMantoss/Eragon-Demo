@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import Header from './components/Header';
+import { useState } from 'react';
+import AccountPlanA from './pages/accountPlanA';
 //import './App.css'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <Header/>
+      <AccountPlanA />
     </>
   )
 }

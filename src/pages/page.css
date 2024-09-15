@@ -107,6 +107,7 @@
     width: 90%;
     margin: 0.2rem 0;
     color: var(--color-grey-light2);
+    opacity: .5;
 }
 
 /* Main Elements */
@@ -131,7 +132,10 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
+    padding: .5rem;
     border: 1px solid var(--color-grey-light2);
+    border-radius: .5rem;
+    box-shadow: 0.313rem 0.313rem 0.4rem var(--color-grey-light2);
 }
 
 .search__button {
@@ -155,4 +159,50 @@
 .search__input {
     border: 0;
     width: 100%;
+    padding: .2rem .8rem;
+    font-size: 1rem;
+}
+
+.search__input:focus{
+    outline: none;
+}
+
+/* AccountPlanB Page */
+
+.details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem 0 0 2rem;
+}
+
+.details__top {
+    display: inherit;
+    flex-direction: row;
+}
+
+.details__top .overview {
+    flex-basis: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.overview .service {
+    width: 11.125rem;
+    height: 11.125rem;
+    margin-bottom: 1rem;
+}
+
+.overview .summary {
+    width: 11.125rem;
+    padding: 1.5rem 1.2rem;
+    border: 0.05rem solid var(--color-grey-light2);
+    border-radius: 0.4rem;
+    box-shadow: 0.2rem 0.313rem 0.4rem var(--color-grey-light2);
+}
+
+.summary h5 {
+    font-size: .9rem;
 }

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: #ffffff;
+  }
+
+  header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8rem 2rem;
+    border-bottom: 1px solid #E2E8F0;
+  }
+
+  .logo {
+    width: 9.5rem;
+    height: 2.2rem;
+  }
+
+  .avatar {
+    width: 2.25rem;
+    height: 2.25rem;
+  }

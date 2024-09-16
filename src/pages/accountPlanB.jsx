@@ -73,13 +73,45 @@ const AccountPlanB = () => {
 
                         <div className='details__bottom'>
                             <h5>Open Opportunities</h5>
-                            <div className='opportunity'>
-                                <h6>Eragon Core</h6>
-                                <p>300 Licenses with</p>
-                                <p>a pipeline of $225K</p>
-                                <div className='calendar'>
-                                    <img src="./images/calendar.png" alt="calendar" />
-                                    <span>June 2024</span>
+                            <div className="opportunities">
+                                <div className='opportunity'>
+                                    <h6>Eragon Core</h6>
+                                    <p>300 Licenses with</p>
+                                    <p>a pipeline of $225K</p>
+                                    <div className='calendar'>
+                                        <img src="./images/calendar.png" alt="calendar" />
+                                        <span>June 2024</span>
+                                    </div>
+                                </div>
+
+                                <div className='opportunity'>
+                                    <h6>Eragon Core</h6>
+                                    <p>300 Licenses with</p>
+                                    <p>a pipeline of $225K</p>
+                                    <div className='calendar'>
+                                        <img src="./images/calendar.png" alt="calendar" />
+                                        <span>June 2024</span>
+                                    </div>
+                                </div>
+
+                                <div className='opportunity'>
+                                    <h6>Eragon Core</h6>
+                                    <p>300 Licenses with</p>
+                                    <p>a pipeline of $225K</p>
+                                    <div className='calendar'>
+                                        <img src="./images/calendar.png" alt="calendar" />
+                                        <span>June 2024</span>
+                                    </div>
+                                </div>
+
+                                <div className='opportunity'>
+                                    <h6>Eragon Core</h6>
+                                    <p>300 Licenses with</p>
+                                    <p>a pipeline of $225K</p>
+                                    <div className='calendar'>
+                                        <img src="./images/calendar.png" alt="calendar" />
+                                        <span>June 2024</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>

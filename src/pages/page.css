@@ -176,7 +176,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 3rem 0 0 2rem;
+    padding: 2rem 0 0 2rem;
 }
 
 .details__top {
@@ -277,12 +277,13 @@
 /* Tabs */
 
 .tabs {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 28.125rem;
+    position: relative;
+    /* top: 25%;
+    left: 33%; */
+    /* transform: translate(-50%, -50%); */
+    width: 32.875rem;
     height: 15.625rem;
+    margin-left: 2rem;
     /* display: flex;
     flex-direction: column;
     justify-content: center;
@@ -314,7 +315,7 @@
 
 .tabs .tab-indicator {
     position: absolute;
-    width: calc(25% - 0.313rem);
+    width: 5.938rem;
     height: 2.5rem;
     background: #ffffff;
     top: .625rem;

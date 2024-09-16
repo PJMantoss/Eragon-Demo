@@ -4,6 +4,7 @@
     --color-primary: #0F172A;
     --color-grey-light: #64748B;
     --color-grey-light2: #e2e8f0;
+    --color-dark-grey: #020617;
     --background-color: #F1F5F9;
     --font-size: 62.5%;
 }
@@ -296,8 +297,11 @@
     width: 25%;
     text-align: center;
     padding: .625rem;
-    font-weight: 600;
     color: var(--color-grey-light);
     cursor: pointer;
     z-index: 2;
+}
+
+.tabs .tab-header div.active {
+    color: var(--color-dark-grey);
 }

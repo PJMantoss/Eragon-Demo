@@ -2,6 +2,22 @@ import Header from '../components/Header';
 import './page.css';
 
 const AccountPlanB = () => {
+
+    // Variables 
+    let tabs = document.querySelector(".tabs");
+    let tabHeader = tabs.querySelector(".tab-header");
+    let tabBody = tabs.querySelector(".tab-body");
+    let tabIndicator = tabs.querySelector(".tab-indicator");
+    let tabHeaderNodes = tabs.querySelectorAll(".tab-header > div");
+    let tabBodyNodes = tabs.querySelectorAll("tab-body > div");
+
+    // Loop Through
+    for(let i=0; i<tabHeaderNodes.length; i++){
+        tabHeaderNodes[i].addEventListener("click", function(){
+            tabHeader.querySelector().classList.remove("active");
+        });
+    }
+
     return(
         <>
             <Header />
@@ -70,7 +86,7 @@ const AccountPlanB = () => {
 
                             <div className="tabs">
                                 <div className="tab-header">
-                                    <div>Account</div>
+                                    <div className='active'>Account</div>
                                     <div>People</div>
                                     <div>Conversations</div>
                                     <div>Activity</div>
@@ -78,7 +94,7 @@ const AccountPlanB = () => {
                                 </div>
                                 <div className="tab-indicator"></div>
                                 <div className="tab-body">
-                                    <div>
+                                    <div className='active'>
                                         <h2>Account</h2>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                             Nulla imperdiet facilisis sagittis. 

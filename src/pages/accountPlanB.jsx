@@ -69,15 +69,15 @@ const AccountPlanB = () => {
                             </div>
 
                             <div className="tabs">
-                                <div className="tabHeader">
+                                <div className="tab-header">
                                     <div>Account</div>
                                     <div>People</div>
                                     <div>Conversations</div>
                                     <div>Activity</div>
                                     <div>Coordinations</div>
                                 </div>
-                                <div className="tabIndicator"></div>
-                                <div className="tabBody">
+                                <div className="tab-indicator"></div>
+                                <div className="tab-body">
                                     <div>
                                         <h2>Account</h2>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 

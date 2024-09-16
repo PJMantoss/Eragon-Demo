@@ -4,6 +4,7 @@
     --color-primary: #0F172A;
     --color-grey-light: #64748B;
     --color-grey-light2: #e2e8f0;
+    --background-color: #F1F5F9;
     --font-size: 62.5%;
 }
 
@@ -281,4 +282,22 @@
     transform: translate(-50%, -50%);
     width: 28.125rem;
     height: 15.625rem;
+}
+
+.tabs .tab-header {
+    display: flex;
+    background: var(--background-color);
+    padding: .625rem;
+    border-radius: 0.4rem;
+}
+
+.tabs .tab-header div {
+    position: relative;
+    width: 25%;
+    text-align: center;
+    padding: .625rem;
+    font-weight: 600;
+    color: var(--color-grey-light);
+    cursor: pointer;
+    z-index: 2;
 }

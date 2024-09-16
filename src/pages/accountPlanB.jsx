@@ -76,7 +76,6 @@ const AccountPlanB = () => {
                             <div className='opportunity'>
                                 <h6>Eragon Core</h6>
                                 <p>300 Licenses with</p>
-                                <br />
                                 <p>a pipeline of $225K</p>
                                 <div className='calendar'>
                                     <img src="./images/calendar.png" alt="calendar" />

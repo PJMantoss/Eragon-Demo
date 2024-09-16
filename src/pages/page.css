@@ -180,6 +180,7 @@
 .details__top {
     display: inherit;
     flex-direction: row;
+    margin-bottom: 2rem;
 }
 
 .details__top .overview {
@@ -205,4 +206,24 @@
 
 .summary h5 {
     font-size: .9rem;
+}
+
+.summary p {
+    color: var(--color-grey-light);
+    line-height: 1.2;
+}
+.details__bottom {
+    padding: .125rem;
+}
+
+.details__bottom h5 {
+    font-size: .9rem;
+}
+
+.opportunity h6 {
+    font-size: .85rem;
+}
+
+.opportunity p {
+    font-size: .8rem;
 }

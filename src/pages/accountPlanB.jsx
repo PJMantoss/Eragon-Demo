@@ -95,18 +95,22 @@ const AccountPlanB = () => {
                                 <div className="tab-indicator"></div>
                                 <div className="tab-body">
                                     <div className='active'>
-                                        <h2>Account</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                            Nulla imperdiet facilisis sagittis. 
-                                            Proin varius tellus et lacus rutrum viverra vel at felis. 
-                                            Sed bibendum felis varius venenatis congue. 
-                                            Quisque lacinia commodo blandit. 
-                                            In suscipit, libero a tempus condimentum, 
-                                            justo arcu sodales libero, id volutpat eros orci nec sapien. 
-                                            Phasellus eget lacinia purus. Morbi elementum fringilla accumsan. 
-                                            Mauris elit elit, cursus non libero vitae, sodales maximus tortor. 
-                                            Morbi pellentesque quis nunc eu dapibus. Donec eget volutpat nunc. 
-                                            Vivamus finibus congue risus, ac congue mauris condimentum et.</p>
+                                        hblvewubyvrybwuiltvuibytvluyb
+                                        <figure className="zoomBtns">
+                                            <img src="./images/minusBtn.png" alt="Minus" />
+                                            <img src="./images/plusBtn.png" alt="Plus" />
+                                        </figure>
+                                        <span>People</span>
+                                        <p>
+                                            <p className="companyContact">
+                                                <img src="./images/playBtn.png" alt="Play" />
+                                                <p className="person">
+                                                    <h6>Name</h6>
+                                                    <p>Position</p>
+                                                </p>
+                                                <h2>People</h2>
+                                            </p>
+                                        </p>
                                     </div>
                                     <div>
                                         <h2>People</h2>

@@ -195,7 +195,7 @@
 .overview .service {
     width: 11.125rem;
     height: 11.125rem;
-    margin-bottom: 1rem;
+    margin: 5rem 0 1rem 0;
 }
 
 .overview .summary {
@@ -277,26 +277,20 @@
 /* Tabs */
 
 .tabs {
-    position: relative;
-    /* top: 25%;
-    left: 33%; */
-    /* transform: translate(-50%, -50%); */
-    width: 32.875rem;
-    height: 15.625rem;
-    margin-left: 2rem;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
+    margin-left: 2rem;
 }
 
 .tabs .tab-header {
     display: flex;
     width: 32.875rem;
-    align-self: center;
     background: var(--background-color);
-    padding: .625rem;
+    padding: .5rem .625rem;
     border-radius: 0.4rem;
+    margin-bottom: 1.6rem;
 }
 
 .tabs .tab-header div {
@@ -318,9 +312,9 @@
     width: 5.938rem;
     height: 2.5rem;
     background: #ffffff;
-    top: .625rem;
-    left: .625rem;
-    border-radius: 1.25rem;
+    top: 108px;
+    left: 695px;
+    border-radius: .5rem;
 }
 
 .tabs .tab-body {
@@ -331,6 +325,8 @@
     height: calc(100% - 3.125rem);
     /* height: 30.25rem; */
     overflow: hidden;
+    border-radius: 0.4rem;
+    box-shadow: 0rem 0.2rem 0.2rem .1rem var(--color-grey-light2);
 }
 
 .tabs .tab-body div {

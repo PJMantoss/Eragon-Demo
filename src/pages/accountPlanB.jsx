@@ -68,7 +68,88 @@ const AccountPlanB = () => {
                                 </div>
                             </div>
 
-                            <div className="tabs"></div>
+                            <div className="tabs">
+                                <div className="tabHeader">
+                                    <div>Account</div>
+                                    <div>People</div>
+                                    <div>Conversations</div>
+                                    <div>Activity</div>
+                                    <div>Coordinations</div>
+                                </div>
+                                <div className="tabIndicator"></div>
+                                <div className="tabBody">
+                                    <div>
+                                        <h2>Account</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                            Nulla imperdiet facilisis sagittis. 
+                                            Proin varius tellus et lacus rutrum viverra vel at felis. 
+                                            Sed bibendum felis varius venenatis congue. 
+                                            Quisque lacinia commodo blandit. 
+                                            In suscipit, libero a tempus condimentum, 
+                                            justo arcu sodales libero, id volutpat eros orci nec sapien. 
+                                            Phasellus eget lacinia purus. Morbi elementum fringilla accumsan. 
+                                            Mauris elit elit, cursus non libero vitae, sodales maximus tortor. 
+                                            Morbi pellentesque quis nunc eu dapibus. Donec eget volutpat nunc. 
+                                            Vivamus finibus congue risus, ac congue mauris condimentum et.</p>
+                                    </div>
+                                    <div>
+                                        <h2>People</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                            Nulla imperdiet facilisis sagittis. 
+                                            Proin varius tellus et lacus rutrum viverra vel at felis. 
+                                            Sed bibendum felis varius venenatis congue. 
+                                            Quisque lacinia commodo blandit. 
+                                            In suscipit, libero a tempus condimentum, 
+                                            justo arcu sodales libero, id volutpat eros orci nec sapien. 
+                                            Phasellus eget lacinia purus. Morbi elementum fringilla accumsan. 
+                                            Mauris elit elit, cursus non libero vitae, sodales maximus tortor. 
+                                            Morbi pellentesque quis nunc eu dapibus. Donec eget volutpat nunc. 
+                                            Vivamus finibus congue risus, ac congue mauris condimentum et.</p>
+                                    </div>
+                                    <div>
+                                        <h2>Conversations</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                            Nulla imperdiet facilisis sagittis. 
+                                            Proin varius tellus et lacus rutrum viverra vel at felis. 
+                                            Sed bibendum felis varius venenatis congue. 
+                                            Quisque lacinia commodo blandit. 
+                                            In suscipit, libero a tempus condimentum, 
+                                            justo arcu sodales libero, id volutpat eros orci nec sapien. 
+                                            Phasellus eget lacinia purus. Morbi elementum fringilla accumsan. 
+                                            Mauris elit elit, cursus non libero vitae, sodales maximus tortor. 
+                                            Morbi pellentesque quis nunc eu dapibus. Donec eget volutpat nunc. 
+                                            Vivamus finibus congue risus, ac congue mauris condimentum et.</p>
+                                    </div>
+                                    <div>
+                                        <h2>Activity</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                            Nulla imperdiet facilisis sagittis. 
+                                            Proin varius tellus et lacus rutrum viverra vel at felis. 
+                                            Sed bibendum felis varius venenatis congue. 
+                                            Quisque lacinia commodo blandit. 
+                                            In suscipit, libero a tempus condimentum, 
+                                            justo arcu sodales libero, id volutpat eros orci nec sapien. 
+                                            Phasellus eget lacinia purus. Morbi elementum fringilla accumsan. 
+                                            Mauris elit elit, cursus non libero vitae, sodales maximus tortor. 
+                                            Morbi pellentesque quis nunc eu dapibus. Donec eget volutpat nunc. 
+                                            Vivamus finibus congue risus, ac congue mauris condimentum et.</p>
+                                    </div>
+                                    <div>
+                                        <h2>Coordinations</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                            Nulla imperdiet facilisis sagittis. 
+                                            Proin varius tellus et lacus rutrum viverra vel at felis. 
+                                            Sed bibendum felis varius venenatis congue. 
+                                            Quisque lacinia commodo blandit. 
+                                            In suscipit, libero a tempus condimentum, 
+                                            justo arcu sodales libero, id volutpat eros orci nec sapien. 
+                                            Phasellus eget lacinia purus. Morbi elementum fringilla accumsan. 
+                                            Mauris elit elit, cursus non libero vitae, sodales maximus tortor. 
+                                            Morbi pellentesque quis nunc eu dapibus. Donec eget volutpat nunc. 
+                                            Vivamus finibus congue risus, ac congue mauris condimentum et.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                         <div className='details__bottom'>

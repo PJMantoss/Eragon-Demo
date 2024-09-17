@@ -83,7 +83,7 @@ const AccountPlanG = () => {
                                         <section className="staff"></section>
                                         <section className='staff-profile'>
                                             <img src="./images/tom.png" alt="Tom" />
-                                            <div className='details'>
+                                            <div className='staff-details'>
                                                 <div className="full-name">
                                                     <div className="name">
                                                         <img src="./images/dot.png" alt="Dot" />
@@ -99,6 +99,20 @@ const AccountPlanG = () => {
                                                 <div className="post">
                                                     <div className="info">
                                                         <span className="status">Low</span>
+                                                        <p className="continue">...</p>
+                                                        <h6 className="title">Dinner with C-Suite</h6>
+                                                        <p className="text">Taking Scott, Ashley, and Tom to McDonalds</p>
+                                                    </div>
+
+                                                    <div className="friends">
+                                                        <img src="./images/tomsfriend1.png" alt="friend" />
+                                                        <img src="./images/tomsfriend2.png" alt="friend" />
+                                                    </div>
+                                                </div>
+
+                                                <div className="post">
+                                                    <div className="info">
+                                                        <span className="status pink">Low</span>
                                                         <p className="continue">...</p>
                                                         <h6 className="title">Dinner with C-Suite</h6>
                                                         <p className="text">Taking Scott, Ashley, and Tom to McDonalds</p>

@@ -3,21 +3,6 @@ import './page.css';
 
 const AccountPlanC = () => {
 
-    // Variables 
-    // let tabs = document.querySelector(".tabs");
-    // let tabHeader = tabs.querySelector(".tab-header");
-    // let tabBody = tabs.querySelector(".tab-body");
-    // let tabIndicator = tabs.querySelector(".tab-indicator");
-    // let tabHeaderNodes = tabs.querySelectorAll(".tab-header > div");
-    // let tabBodyNodes = tabs.querySelectorAll("tab-body > div");
-
-    // // Loop Through
-    // for(let i=0; i<tabHeaderNodes.length; i++){
-    //     tabHeaderNodes[i].addEventListener("click", function(){
-    //         tabHeader.querySelector().classList.remove("active");
-    //     });
-    // }
-
     return(
         <>
             <Header />
@@ -86,76 +71,40 @@ const AccountPlanC = () => {
 
                             <div className="tabs">
                                 <div className="tab-header">
-                                    <div className='active'>Account</div>
-                                    <div>People</div>
+                                    <div>Account</div>
+                                    <div className='active'>People</div>
                                     <div>Conversations</div>
                                     <div>Activity</div>
                                     <div>Coordinations</div>
                                 </div>
-                                <div className="tab-indicator"></div>
-                                <div className="tab-body">
-                                    <figure className="zoomBtns">
-                                        <img src="./images/minusBtn.png" alt="Minus" />
-                                        <img src="./images/plusBtn.png" alt="Plus" />
-                                    </figure>
+                                <div className="tab-indicator2"></div>
+                                <div className="tab-body2">
                                     <div className='active'>
-
-                                            <section className="profile">
-                                                <img src="./images/playBtn.png" alt="Play" />
-                                                <section className="person">
-                                                    <h6>Name</h6>
-                                                    <p>Position</p>
+                                        <section className="person-summary">
+                                            <h5>Anasuya S.</h5>
+                                            <section className="profile2">
+                                                <img src="./images/square.png" alt="Play" className='square'/>
+                                                <section className="person2">
+                                                    <h5>Person Summary</h5>
+                                                    <p>Decades-long tech leader from Siebel to AWS; specialized in strategic planning.</p>
                                                 </section>
                                             </section>
-
-                                            <section className='companyPerson first'>
-                                                <section className="profile">
-                                                    <img src="./images/playBtn.png" alt="Play" />
-                                                    <section className="person">
-                                                        <h6>Name</h6>
-                                                        <p>Position</p>
-                                                    </section>
-                                                </section>
-
-                                                <section className="profile">
-                                                    <img src="./images/playBtn.png" alt="Play" />
-                                                    <section className="person">
-                                                        <h6>Name</h6>
-                                                        <p>Position</p>
-                                                    </section>
-                                                </section>
-                                            </section>
-
-                                            <section className='companyPerson'>
-                                                <section className="profile">
-                                                    <img src="./images/playBtn.png" alt="Play" />
-                                                    <section className="person">
-                                                        <h6>Name</h6>
-                                                        <p>Position</p>
-                                                    </section>
-                                                </section>
-
-                                                <section className="profile">
-                                                    <img src="./images/playBtn.png" alt="Play" />
-                                                    <section className="person">
-                                                        <h6>Name</h6>
-                                                        <p>Position</p>
-                                                    </section>
-                                                </section>
-
-                                                <section className="profile">
-                                                    <img src="./images/playBtn.png" alt="Play" />
-                                                    <section className="person">
-                                                        <h6>Name</h6>
-                                                        <p>Position</p>
-                                                    </section>
-                                                </section>
-                                            </section>
-
-                                            <section className='companyPerson last'>
-                                                <section className='inner-section'>
+                                        </section>
+                                        
+                                        <section className="team">
+                                            <h5>Our Team in Contact</h5>
+                                            <section className="team-members">
+                                                <section className='company-person'>
                                                     <section className="profile">
-                                                        <img src="./images/playBtn.png" alt="Play" />
+                                                        <img src="./images/red-avatar.png" alt="Play" />
+                                                        <section className="person">
+                                                            <h6>Name</h6>
+                                                            <p>Position</p>
+                                                        </section>
+                                                    </section>
+
+                                                    <section className="profile">
+                                                        <img src="./images/red-avatar.png" alt="Play" />
                                                         <section className="person">
                                                             <h6>Name</h6>
                                                             <p>Position</p>
@@ -169,9 +118,7 @@ const AccountPlanC = () => {
                                                             <p>Position</p>
                                                         </section>
                                                     </section>
-                                                </section>
 
-                                                <section className='inner-section'>
                                                     <section className="profile">
                                                         <img src="./images/playBtn.png" alt="Play" />
                                                         <section className="person">
@@ -189,62 +136,15 @@ const AccountPlanC = () => {
                                                     </section>
                                                 </section>
                                             </section>
+                                        </section>
                                     </div>
                                     <div>
-                                        <h2>People</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                            Nulla imperdiet facilisis sagittis. 
-                                            Proin varius tellus et lacus rutrum viverra vel at felis. 
-                                            Sed bibendum felis varius venenatis congue. 
-                                            Quisque lacinia commodo blandit. 
-                                            In suscipit, libero a tempus condimentum, 
-                                            justo arcu sodales libero, id volutpat eros orci nec sapien. 
-                                            Phasellus eget lacinia purus. Morbi elementum fringilla accumsan. 
-                                            Mauris elit elit, cursus non libero vitae, sodales maximus tortor. 
-                                            Morbi pellentesque quis nunc eu dapibus. Donec eget volutpat nunc. 
-                                            Vivamus finibus congue risus, ac congue mauris condimentum et.</p>
                                     </div>
                                     <div>
-                                        <h2>Conversations</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                            Nulla imperdiet facilisis sagittis. 
-                                            Proin varius tellus et lacus rutrum viverra vel at felis. 
-                                            Sed bibendum felis varius venenatis congue. 
-                                            Quisque lacinia commodo blandit. 
-                                            In suscipit, libero a tempus condimentum, 
-                                            justo arcu sodales libero, id volutpat eros orci nec sapien. 
-                                            Phasellus eget lacinia purus. Morbi elementum fringilla accumsan. 
-                                            Mauris elit elit, cursus non libero vitae, sodales maximus tortor. 
-                                            Morbi pellentesque quis nunc eu dapibus. Donec eget volutpat nunc. 
-                                            Vivamus finibus congue risus, ac congue mauris condimentum et.</p>
                                     </div>
                                     <div>
-                                        <h2>Activity</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                            Nulla imperdiet facilisis sagittis. 
-                                            Proin varius tellus et lacus rutrum viverra vel at felis. 
-                                            Sed bibendum felis varius venenatis congue. 
-                                            Quisque lacinia commodo blandit. 
-                                            In suscipit, libero a tempus condimentum, 
-                                            justo arcu sodales libero, id volutpat eros orci nec sapien. 
-                                            Phasellus eget lacinia purus. Morbi elementum fringilla accumsan. 
-                                            Mauris elit elit, cursus non libero vitae, sodales maximus tortor. 
-                                            Morbi pellentesque quis nunc eu dapibus. Donec eget volutpat nunc. 
-                                            Vivamus finibus congue risus, ac congue mauris condimentum et.</p>
                                     </div>
                                     <div>
-                                        <h2>Coordinations</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                            Nulla imperdiet facilisis sagittis. 
-                                            Proin varius tellus et lacus rutrum viverra vel at felis. 
-                                            Sed bibendum felis varius venenatis congue. 
-                                            Quisque lacinia commodo blandit. 
-                                            In suscipit, libero a tempus condimentum, 
-                                            justo arcu sodales libero, id volutpat eros orci nec sapien. 
-                                            Phasellus eget lacinia purus. Morbi elementum fringilla accumsan. 
-                                            Mauris elit elit, cursus non libero vitae, sodales maximus tortor. 
-                                            Morbi pellentesque quis nunc eu dapibus. Donec eget volutpat nunc. 
-                                            Vivamus finibus congue risus, ac congue mauris condimentum et.</p>
                                     </div>
                                 </div>
                             </div>

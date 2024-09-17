@@ -200,6 +200,7 @@
 
 .overview .summary {
     width: 11.125rem;
+    height: 17.625rem;
     padding: 1.5rem 1.2rem;
     border: 0.05rem solid var(--color-grey-light2);
     border-radius: 0.4rem;
@@ -312,8 +313,8 @@
     width: 5.938rem;
     height: 2.5rem;
     background: #ffffff;
-    top: 108px;
-    left: 695px;
+    top: 6.75rem;
+    left: 43.438rem;
     border-radius: .5rem;
 }
 
@@ -368,7 +369,7 @@
     display: inherit;
     justify-content: flex-start;
     align-items: center;
-    margin: 0 1rem 0 0;
+    margin: 0 1rem 1.5rem 0;
     width: 11.438rem;
     height: 4.75rem;
     border: 0.05rem solid var(--color-grey-light2);
@@ -409,4 +410,98 @@
 .person h6 {
     color: var(--color-dark-grey);
     margin-bottom: .3rem;
+}
+
+/* AccountPlanC */
+
+.tabs .tab-indicator2 {
+    position: absolute;
+    width: 5.938rem;
+    height: 2.5rem;
+    background: #ffffff;
+    top: 6.75rem;
+    left: 49.375rem;
+    border-radius: .5rem;
+}
+
+.tabs .tab-body2 {
+    position: relative;
+    padding: 0 .625rem .625rem 1rem;
+    /* border: 0.05rem solid var(--color-grey-light2); */
+    width: 56.313rem;
+    /* height: calc(100% - 3.125rem); */
+    height: 30.25rem;
+    overflow: hidden;
+    /* border-radius: 0.4rem;
+    box-shadow: 0rem 0.2rem 0.2rem .1rem var(--color-grey-light2); */
+}
+
+.person-summary, .team {
+    width: 100%;
+    border: 0.05rem solid var(--color-grey-light2);
+    border-radius: 0.4rem;
+    box-shadow: 0rem 0.2rem 0.2rem .1rem var(--color-grey-light2);
+}
+
+.team {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.team h5 {
+    font-size: 1rem;
+}
+
+.company-person {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.2rem 0 0 1rem;
+}
+
+.person-summary {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.person-summary h5 {
+    font-size: 1rem;
+}
+
+.person-summary .profile2 {
+    width: 23.938rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1.2rem 0 0 1rem;
+}
+
+.profile2 {
+    width: 31rem;
+}
+
+.profile2 img {
+    width: 5.875rem;
+    height: 5.875rem;
+    margin-right: 1.5rem;
+}
+
+.person2 {
+    width: 24rem;
+}
+
+.person2 h5, p {
+    font-size: 1rem;
+}
+
+.person2 h5 {
+    color: var(--color-dark-grey);
+    margin-bottom: .3rem;
+}
+
+.person2 p {
+    color: var(--color-grey-light);
+    width: 22.4rem;
 }

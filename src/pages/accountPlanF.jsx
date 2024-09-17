@@ -272,6 +272,43 @@ const AccountPlanF = () => {
                                                             </section>
                                                         </section>
                                                     </section>
+
+                                                    <section className='conversations-box'>
+                                                        <hr />
+                                                        <section className="conversations">
+                                                            <section className='conversation'>
+                                                                <h6>Upgrade</h6>
+                                                                <section className='calendar'>
+                                                                    <img src="./images/calendar.png" alt="calendar" />
+                                                                    <span>June 2024</span>
+                                                                </section>
+                                                            </section>
+
+                                                            <section className='conversation'>
+                                                                <h6>Discovery Call</h6>
+                                                                <section className='calendar'>
+                                                                    <img src="./images/calendar.png" alt="calendar" />
+                                                                    <span>April 2023</span>
+                                                                </section>
+                                                            </section>
+
+                                                            <section className='conversation'>
+                                                                <h6>Purchase</h6>
+                                                                <section className='calendar'>
+                                                                    <img src="./images/calendar.png" alt="calendar" />
+                                                                    <span>June 2022</span>
+                                                                </section>
+                                                            </section>
+
+                                                            <section className='conversation'>
+                                                                <h6>Attended Conference</h6>
+                                                                <section className='calendar'>
+                                                                    <img src="./images/calendar.png" alt="calendar" />
+                                                                    <span>Dec 2021</span>
+                                                                </section>
+                                                            </section>
+                                                        </section>
+                                                    </section>
                                                 </section>
                                             </section>
                                         </section>

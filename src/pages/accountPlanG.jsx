@@ -112,10 +112,10 @@ const AccountPlanG = () => {
 
                                                 <div className="post">
                                                     <div className="info">
-                                                        <span className="status pink">Low</span>
+                                                        <span className="status pink">High</span>
                                                         <p className="continue">...</p>
-                                                        <h6 className="title">Dinner with C-Suite</h6>
-                                                        <p className="text">Taking Scott, Ashley, and Tom to McDonalds</p>
+                                                        <h6 className="title">Business Case Rough Draft</h6>
+                                                        <p className="text">Service Cloud 3 Year ACV ROI and TCO presentation</p>
                                                     </div>
 
                                                     <div className="friends">

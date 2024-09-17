@@ -95,22 +95,19 @@ const AccountPlanB = () => {
                                 <div className="tab-indicator"></div>
                                 <div className="tab-body">
                                     <div className='active'>
-                                        hblvewubyvrybwuiltvuibytvluyb
                                         <figure className="zoomBtns">
                                             <img src="./images/minusBtn.png" alt="Minus" />
                                             <img src="./images/plusBtn.png" alt="Plus" />
                                         </figure>
-                                        <span>People</span>
-                                        <p>
-                                            <p className="companyContact">
+                                        <section className='companyPerson'>
+                                            <section className="profile">
                                                 <img src="./images/playBtn.png" alt="Play" />
-                                                <p className="person">
+                                                <section className="person">
                                                     <h6>Name</h6>
                                                     <p>Position</p>
-                                                </p>
-                                                <h2>People</h2>
-                                            </p>
-                                        </p>
+                                                </section>
+                                            </section>
+                                        </section>
                                     </div>
                                     <div>
                                         <h2>People</h2>

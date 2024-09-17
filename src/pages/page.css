@@ -765,6 +765,10 @@
    margin-top: 3rem;
 }
 
+.staff-profile:not(:last-child) {
+    margin-right: 1rem;
+}
+
 .staff-profile img {
     width: 4.94rem;
     height: 4.94rem;

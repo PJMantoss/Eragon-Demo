@@ -598,3 +598,111 @@
     left: 55.4rem;
     border-radius: .5rem;
 }
+
+/* accountPlanE */
+
+.tabs .tab-body3 {
+    position: relative;
+    padding: 0 .625rem .625rem 1rem;
+    width: 56.313rem;
+    height: 30.25rem;
+}
+
+.team2 {
+    border: 0.05rem solid var(--color-grey-light2);
+    border-radius: 0.4rem;
+    box-shadow: 0rem 0.2rem 0.2rem .1rem var(--color-grey-light2);
+    margin: 1.5rem 0 8rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 0 0 .8rem;
+}
+
+.team2 h5 {
+    margin-bottom: 1rem;
+}
+
+.team-members2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.company-person2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 1rem;
+}
+
+.convo-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conversations-box {
+    position: relative;
+    /* width: 100%; */
+    padding: .8rem 0 .8rem 1rem;
+    /* margin-left: 14rem; */
+}
+
+.conversations-box hr {
+    position: absolute;
+    margin: 1.8rem 0 0 2rem;
+    border: .125rem solid #000000;
+    width: 93%;
+    z-index: -1;
+}
+
+.conversations {
+    display: flex;
+    /* padding-left: 1rem; */
+    margin-left: 1.5rem;
+}
+
+.conversation {
+    width: 7.5rem;
+    height: 6.88rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-right: 2rem;
+    border: 0.05rem solid var(--color-grey-light2);
+    border-radius: 0.4rem;
+    box-shadow: 0.05rem 0.1rem 0.2rem .1rem var(--color-grey-light2);
+    background: #ffffff;
+}
+
+.conversation h6 {
+    font-size: .9rem;
+    margin-bottom: 0.28rem;
+}
+
+.conversation p {
+    line-height: 1.2;
+}
+
+.conversation h6, p {
+    color: var(--color-primary);
+}
+
+.conversation .calendar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0.4rem;
+}
+
+.calendar img {
+    width: 1rem;
+    height: auto;
+    margin-right: 0.4rem;
+}
+
+.calendar span {
+    font-size: .9rem;
+    color: var(--color-grey-light);
+}

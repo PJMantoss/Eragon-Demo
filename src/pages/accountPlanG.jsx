@@ -152,13 +152,13 @@ const AccountPlanG = () => {
                                                         <div className="friends">
                                                             <img src="./images/russelsfriend.png" alt="friend" />
                                                             <img src="./images/russelsfriend2.png" alt="friend" />
-                                                            <img src="./images/russelsfriend2.png" alt="friend" />
+                                                            <img src="./images/russelsfriend3.png" alt="friend" />
                                                         </div>
                                                     </div>
 
                                                     <div className="post">
                                                         <div className="info">
-                                                            <span className="status pink">High</span>
+                                                            <span className="status">Low</span>
                                                             <p className="continue">...</p>
                                                             <h6 className="title">Follow Up With Service Champion</h6>
                                                             <p className="text">Lorem Ipsum Dolo si Ta me</p>
@@ -188,29 +188,31 @@ const AccountPlanG = () => {
 
                                                     <div className="post">
                                                         <div className="info">
-                                                            <span className="status">Completed</span>
+                                                            <span className="status green">Completed</span>
                                                             <p className="continue">...</p>
-                                                            <h6 className="title">Dinner with C-Suite</h6>
-                                                            <p className="text">Taking Scott, Ashley, and Tom to McDonalds</p>
+                                                            <h6 className="title">Dinner with Dylan</h6>
+                                                            <p className="text">Hosted our decision maker yesterday evening</p>
                                                         </div>
 
                                                         <div className="friends">
-                                                            <img src="./images/tomsfriend1.png" alt="friend" />
-                                                            <img src="./images/tomsfriend2.png" alt="friend" />
+                                                            <img src="./images/russelsfriend3.png" alt="friend" />
+                                                            <img src="./images/russelsfriend.png" alt="friend" />
+                                                            <img src="./images/russelsfriend2.png" alt="friend" />
                                                         </div>
                                                     </div>
 
                                                     <div className="post">
                                                         <div className="info">
-                                                            <span className="status pink">High</span>
+                                                            <span className="status green">Completed</span>
                                                             <p className="continue">...</p>
-                                                            <h6 className="title">Business Case Rough Draft</h6>
-                                                            <p className="text">Service Cloud 3 Year ACV ROI and TCO presentation</p>
+                                                            <h6 className="title">Executive Alignment</h6>
+                                                            <p className="text">Aligned Rich with CIO</p>
                                                         </div>
 
                                                         <div className="friends">
-                                                            <img src="./images/tomsfriend1.png" alt="friend" />
-                                                            <img src="./images/tomsfriend2.png" alt="friend" />
+                                                            <img src="./images/russelsfriend3.png" alt="friend" />
+                                                            <img src="./images/russelsfriend.png" alt="friend" />
+                                                            <img src="./images/russelsfriend2.png" alt="friend" />
                                                         </div>
                                                     </div>
                                                 </div>

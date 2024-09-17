@@ -895,6 +895,12 @@
     color: #D8727D;
 }
 
+.status.green {
+    width: 5rem;
+    background: #69b2661b;
+    color: #68B266;
+}
+
 .continue {
     position: absolute;
     font-weight: bolder;

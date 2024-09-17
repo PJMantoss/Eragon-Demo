@@ -94,12 +94,11 @@ const AccountPlanB = () => {
                                 </div>
                                 <div className="tab-indicator"></div>
                                 <div className="tab-body">
+                                    <figure className="zoomBtns">
+                                        <img src="./images/minusBtn.png" alt="Minus" />
+                                        <img src="./images/plusBtn.png" alt="Plus" />
+                                    </figure>
                                     <div className='active'>
-                                        <figure className="zoomBtns">
-                                            <img src="./images/minusBtn.png" alt="Minus" />
-                                            <img src="./images/plusBtn.png" alt="Plus" />
-                                        </figure>
-                                        <section className='companyPerson'>
                                             <section className="profile">
                                                 <img src="./images/playBtn.png" alt="Play" />
                                                 <section className="person">
@@ -107,7 +106,23 @@ const AccountPlanB = () => {
                                                     <p>Position</p>
                                                 </section>
                                             </section>
-                                        </section>
+                                            <section className='companyPerson'>
+                                                <section className="profile">
+                                                    <img src="./images/playBtn.png" alt="Play" />
+                                                    <section className="person">
+                                                        <h6>Name</h6>
+                                                        <p>Position</p>
+                                                    </section>
+                                                </section>
+
+                                                <section className="profile">
+                                                    <img src="./images/playBtn.png" alt="Play" />
+                                                    <section className="person">
+                                                        <h6>Name</h6>
+                                                        <p>Position</p>
+                                                    </section>
+                                                </section>
+                                            </section>
                                     </div>
                                     <div>
                                         <h2>People</h2>

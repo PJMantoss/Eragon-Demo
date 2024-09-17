@@ -319,7 +319,7 @@
 
 .tabs .tab-body {
     position: relative;
-    padding: .625rem;
+    padding: 0 .625rem .625rem 1rem;
     border: 0.05rem solid var(--color-grey-light2);
     width: 56.313rem;
     height: calc(100% - 3.125rem);
@@ -334,10 +334,66 @@
     opacity: 0;
     top: -100%;
     transform: translateY(-625rem);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .tabs .tab-body div.active {
     transform: translateY(0rem);
     top: 1.875rem;
     opacity: 1;
+}
+
+.zoomBtns {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.zoomBtns img {
+    width: 1.688rem;
+    height: 1.688rem;
+    top: 0;
+    left: 1rem;
+    margin-bottom: .8rem;
+    z-index: 10;
+}
+
+.profile {
+    display: inherit;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 1rem 0 0;
+    width: 11.438rem;
+    height: 4.75rem;
+    border: 0.05rem solid var(--color-grey-light2);
+    border-radius: 0.4rem;
+    box-shadow: 0.15rem 0.15rem 0.3rem .1rem var(--color-grey-light2);
+}
+
+.companyPerson {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    margin: 2.4rem 0;
+}
+
+.profile img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0 .7rem 0 1rem;
+}
+
+.person h6, p {
+    font-size: 1rem;
+}
+
+.person h6 {
+    color: var(--color-dark-grey);
+    margin-bottom: .3rem;
 }

@@ -1,7 +1,7 @@
 import Header from '../components/Header';
 import './page.css';
 
-const AccountPlanB = () => {
+const AccountPlanC = () => {
 
     // Variables 
     // let tabs = document.querySelector(".tabs");
@@ -308,4 +308,4 @@ const AccountPlanB = () => {
     )
 };
 
-export default AccountPlanB;
+export default AccountPlanC;

@@ -725,3 +725,13 @@
     font-size: .9rem;
     color: var(--color-grey-light);
 }
+
+/* accountPlanF */
+
+.name-and-convo {
+    border: 0.05rem solid var(--color-grey-light2);
+    border-radius: 0.4rem;
+    box-shadow: 0rem 0.2rem 0.2rem .1rem var(--color-grey-light2);
+    margin: 0rem 0 8rem;
+    padding: 1rem 0 0 .8rem;
+}

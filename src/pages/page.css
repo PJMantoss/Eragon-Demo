@@ -749,6 +749,9 @@
 }
 
 .staff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 0.05rem solid var(--color-grey-light2);
     border-radius: 0.4rem;
     box-shadow: 0rem 0.2rem 0.2rem .1rem var(--color-grey-light2);
@@ -759,6 +762,7 @@
    flex-direction: column;
    justify-content: space-between;
    align-items: center;
+   margin-top: 3rem;
 }
 
 .staff-profile img {

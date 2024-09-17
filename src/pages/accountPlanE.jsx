@@ -96,7 +96,7 @@ const AccountPlanE = () => {
                                             <section>
                                                 <section className="team-members2">
                                                     <section className='company-person2'>
-                                                        <section className="profile">
+                                                        <section className="profile3">
                                                             <img src="./images/red-avatar.png" alt="Play" />
                                                             <section className="person">
                                                                 <h6>Name</h6>
@@ -104,7 +104,7 @@ const AccountPlanE = () => {
                                                             </section>
                                                         </section>
 
-                                                        <section className="profile">
+                                                        <section className="profile3">
                                                             <img src="./images/red-avatar.png" alt="Play" />
                                                             <section className="person">
                                                                 <h6>Name</h6>
@@ -112,7 +112,7 @@ const AccountPlanE = () => {
                                                             </section>
                                                         </section>
 
-                                                        <section className="profile">
+                                                        <section className="profile3">
                                                             <img src="./images/red-avatar.png" alt="Play" />
                                                             <section className="person">
                                                                 <h6>Name</h6>
@@ -120,7 +120,7 @@ const AccountPlanE = () => {
                                                             </section>
                                                         </section>
 
-                                                        <section className="profile">
+                                                        <section className="profile3">
                                                             <img src="./images/red-avatar.png" alt="Play" />
                                                             <section className="person">
                                                                 <h6>Name</h6>

@@ -3,6 +3,7 @@ import AccountPlanA from './pages/accountPlanA';
 import AccountPlanB from './pages/accountPlanB';
 import AccountPlanC from './pages/accountPlanC';
 import AccountPlanD from './pages/accountPlanD';
+import AccountPlanE from './pages/accountPlanE';
 import './App.css'
 
 function App() {
@@ -10,9 +11,9 @@ function App() {
 
   return (
     <>
-      <AccountPlanD />
+      <AccountPlanE />
     </>
   )
 }
 
-export default App
+export default App;

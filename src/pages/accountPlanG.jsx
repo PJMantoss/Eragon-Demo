@@ -78,7 +78,7 @@ const AccountPlanG = () => {
                                     <div className='active'>Coordinations</div>
                                 </div>
                                 <div className="tab-indicator4"></div>
-                                <div className="tab-body3">
+                                <div className="tab-body4">
                                     <div className='active'>
                                         <section className="staff">
                                             <section className='staff-profile'>
@@ -145,8 +145,8 @@ const AccountPlanG = () => {
                                                         <div className="info">
                                                             <span className="status">Low</span>
                                                             <p className="continue">...</p>
-                                                            <h6 className="title">Dinner with C-Suite</h6>
-                                                            <p className="text">Taking Scott, Ashley, and Tom to McDonalds</p>
+                                                            <h6 className="title">Running Webinar</h6>
+                                                            <p className="text">Lorem Ipsum Dolo si Ta me</p>
                                                         </div>
 
                                                         <div className="friends">
@@ -160,36 +160,35 @@ const AccountPlanG = () => {
                                                         <div className="info">
                                                             <span className="status pink">High</span>
                                                             <p className="continue">...</p>
-                                                            <h6 className="title">Business Case Rough Draft</h6>
-                                                            <p className="text">Service Cloud 3 Year ACV ROI and TCO presentation</p>
+                                                            <h6 className="title">Follow Up With Service Champion</h6>
+                                                            <p className="text">Lorem Ipsum Dolo si Ta me</p>
                                                         </div>
 
                                                         <div className="friends">
-                                                            <img src="./images/tomsfriend1.png" alt="friend" />
-                                                            <img src="./images/tomsfriend2.png" alt="friend" />
+                                                            <img src="./images/russelsfriend.png" alt="friend" />
                                                         </div>
                                                     </div>
                                                 </div>
                                             </section>
 
                                             <section className='staff-profile'>
-                                                <img src="./images/tom.png" alt="Tom" />
+                                                <img src="./images/david.png" alt="David" />
                                                 <div className='staff-details'>
                                                     <div className="full-name">
                                                         <div className="name">
                                                             <img src="./images/dot.png" alt="Dot" />
-                                                            <h5>Tom Scott</h5>
+                                                            <h5>David</h5>
                                                         </div>
 
                                                         <div className="number">
-                                                            <span>3</span>
+                                                            <span>2</span>
                                                             <img src="./images/add-square.png" alt="Add" />
                                                         </div>
                                                     </div>
 
                                                     <div className="post">
                                                         <div className="info">
-                                                            <span className="status">Low</span>
+                                                            <span className="status">Completed</span>
                                                             <p className="continue">...</p>
                                                             <h6 className="title">Dinner with C-Suite</h6>
                                                             <p className="text">Taking Scott, Ashley, and Tom to McDonalds</p>

@@ -369,7 +369,7 @@
     display: inherit;
     justify-content: flex-start;
     align-items: center;
-    margin: 0 1rem 1.5rem 0;
+    margin: 0 1rem 1rem 0;
     width: 11.438rem;
     height: 4.75rem;
     border: 0.05rem solid var(--color-grey-light2);
@@ -382,7 +382,7 @@
     display: inherit;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2.4rem;
+    margin-bottom: 1rem;
 }
 
 .companyPerson.first {
@@ -738,13 +738,20 @@
 
 /* accountPlanG */
 
+.tabs .tab-body4 {
+    position: relative;
+    padding: 0 .625rem .625rem 1rem;
+    width: 58.313rem;
+    height: 30.25rem;
+}
+
 .tabs .tab-indicator4 {
     position: absolute;
     width: 6.5rem;
     height: 2.5rem;
     background: #ffffff;
     top: 6.75rem;
-    left: 68.2rem;
+    left: 69.3rem;
     border-radius: .5rem;
 }
 

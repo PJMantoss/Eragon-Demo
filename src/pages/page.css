@@ -13,7 +13,7 @@
 
 .content {
     display: flex;
-    min-height: 58.625rem;
+    min-height: 60rem;
 }
 
 .sidebar {
@@ -215,6 +215,7 @@
     color: var(--color-grey-light);
     line-height: 1.2;
 }
+
 .details__bottom {
     padding: .8rem 0 .8rem 1rem;
     border: 0.05rem solid var(--color-grey-light2);
@@ -228,7 +229,6 @@
 }
 
 .opportunities {
-    width: 69.563rem;
     display: flex;
     padding-left: 1rem;
 }
@@ -436,18 +436,25 @@
     box-shadow: 0rem 0.2rem 0.2rem .1rem var(--color-grey-light2); */
 }
 
+.tabs .tab-body2 div.active {
+    transform: translateY(0rem);
+    top: 1.875rem;
+    opacity: 1;
+}
+
 .person-summary, .team {
     width: 100%;
+    height: auto;
     border: 0.05rem solid var(--color-grey-light2);
     border-radius: 0.4rem;
     box-shadow: 0rem 0.2rem 0.2rem .1rem var(--color-grey-light2);
 }
 
 .team {
-    margin-top: 3rem;
+    margin: 1.5rem 0 8rem;
     display: flex;
     flex-direction: column;
-    padding: 1.5rem;
+    padding: 1.5rem 0 0 1.5rem;
 }
 
 .team h5 {
@@ -504,4 +511,80 @@
 .person2 p {
     color: var(--color-grey-light);
     width: 22.4rem;
+}
+
+.details__bottom2 {
+    position: relative;
+    width: 55rem;
+    padding: .8rem 0 .8rem 1rem;
+    margin-left: 14rem;
+    border: 0.05rem solid var(--color-grey-light2);
+    border-radius: 0.4rem;
+    box-shadow: 0.05rem 0.1rem 0.2rem .1rem var(--color-grey-light2);
+}
+
+.details__bottom2 hr {
+    position: absolute;
+    margin-top: 5rem;
+    border: 1rem solid #000000;
+    width: 90%;
+    z-index: -1;
+    /* top: 20rem;
+    left: 0; */
+}
+
+.details__bottom2 h5 {
+    font-size: .9rem;
+    margin-bottom: 0.5rem;
+}
+
+.opportunities2 {
+    display: flex;
+    padding-left: 1rem;
+}
+
+.opportunity2 {
+    width: 7.64rem;
+    height: 6.88rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.2rem;
+    margin-right: 2rem;
+    border: 0.05rem solid var(--color-grey-light2);
+    border-radius: 0.4rem;
+    box-shadow: 0.05rem 0.1rem 0.2rem .1rem var(--color-grey-light2);
+    background: #ffffff;
+}
+
+.opportunity2 h6 {
+    font-size: .9rem;
+    margin-bottom: 0.28rem;
+}
+
+.opportunity2 p {
+    line-height: 1.2;
+}
+
+.opportunity2 h6, p {
+    color: var(--color-primary);
+}
+
+.opportunity2 .calendar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0.4rem;
+}
+
+.calendar img {
+    width: 1rem;
+    height: auto;
+    margin-right: 0.4rem;
+}
+
+.calendar span {
+    font-size: .9rem;
+    color: var(--color-grey-light);
 }

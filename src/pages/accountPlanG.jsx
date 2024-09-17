@@ -73,244 +73,43 @@ const AccountPlanG = () => {
                                 <div className="tab-header">
                                     <div>Account</div>
                                     <div>People</div>
-                                    <div className='active'>Conversations</div>
+                                    <div>Conversations</div>
                                     <div>Activity</div>
-                                    <div>Coordinations</div>
+                                    <div className='active'>Coordinations</div>
                                 </div>
-                                <div className="tab-indicator3"></div>
+                                <div className="tab-indicator4"></div>
                                 <div className="tab-body3">
                                     <div className='active'>
-                                        <section className='name-and-convo'>
-                                            <section className="team-members2">
-                                                <section className='company-person2'>
-                                                    <section className="profile3">
-                                                        <img src="./images/playBtn.png" alt="Play" />
-                                                        <section className="person">
-                                                            <h6>Name</h6>
-                                                            <p>Position</p>
-                                                        </section>
-                                                    </section>
+                                        <section className="staff"></section>
+                                        <section className='staff-profile'>
+                                            <img src="./images/tom.png" alt="Tom" />
+                                            <div className='details'>
+                                                <div className="full-name">
+                                                    <div className="name">
+                                                        <img src="./images/dot.png" alt="Dot" />
+                                                        <h5>Tom Scott</h5>
+                                                    </div>
 
-                                                    <section className="profile3">
-                                                        <img src="./images/playBtn.png" alt="Play" />
-                                                        <section className="person">
-                                                            <h6>Name</h6>
-                                                            <p>Position</p>
-                                                        </section>
-                                                    </section>
+                                                    <div className="number">
+                                                        <span>3</span>
+                                                        <img src="./images/add-square.png" alt="Add" />
+                                                    </div>
+                                                </div>
 
-                                                    <section className="profile3">
-                                                        <img src="./images/playBtn.png" alt="Play" />
-                                                        <section className="person">
-                                                            <h6>Name</h6>
-                                                            <p>Position</p>
-                                                        </section>
-                                                    </section>
+                                                <div className="post">
+                                                    <div className="info">
+                                                        <span className="status">Low</span>
+                                                        <p className="continue">...</p>
+                                                        <h6 className="title">Dinner with C-Suite</h6>
+                                                        <p className="text">Taking Scott, Ashley, and Tom to McDonalds</p>
+                                                    </div>
 
-                                                    <section className="profile3">
-                                                        <img src="./images/playBtn.png" alt="Play" />
-                                                        <section className="person">
-                                                            <h6>Name</h6>
-                                                            <p>Position</p>
-                                                        </section>
-                                                    </section>
-
-                                                    <section className="profile3">
-                                                        <img src="./images/playBtn.png" alt="Play" />
-                                                        <section className="person">
-                                                            <h6>Name</h6>
-                                                            <p>Position</p>
-                                                        </section>
-                                                    </section>
-                                                </section>
-
-                                                <section className="convo-column">
-                                                    <section className='conversations-box'>
-                                                        <hr />
-                                                        <section className="conversations">
-                                                            <section className='conversation'>
-                                                                <h6>Upgrade</h6>
-                                                                <section className='calendar'>
-                                                                    <img src="./images/calendar.png" alt="calendar" />
-                                                                    <span>June 2024</span>
-                                                                </section>
-                                                            </section>
-
-                                                            <section className='conversation'>
-                                                                <h6>Discovery Call</h6>
-                                                                <section className='calendar'>
-                                                                    <img src="./images/calendar.png" alt="calendar" />
-                                                                    <span>April 2023</span>
-                                                                </section>
-                                                            </section>
-
-                                                            <section className='conversation'>
-                                                                <h6>Purchase</h6>
-                                                                <section className='calendar'>
-                                                                    <img src="./images/calendar.png" alt="calendar" />
-                                                                    <span>June 2022</span>
-                                                                </section>
-                                                            </section>
-
-                                                            <section className='conversation'>
-                                                                <h6>Attended Conference</h6>
-                                                                <section className='calendar'>
-                                                                    <img src="./images/calendar.png" alt="calendar" />
-                                                                    <span>Dec 2021</span>
-                                                                </section>
-                                                            </section>
-                                                        </section>
-                                                    </section>
-
-                                                    <section className='conversations-box'>
-                                                        <hr />
-                                                        <section className="conversations">
-                                                            <section className='conversation'>
-                                                                <h6>Upgrade</h6>
-                                                                <section className='calendar'>
-                                                                    <img src="./images/calendar.png" alt="calendar" />
-                                                                    <span>June 2024</span>
-                                                                </section>
-                                                            </section>
-
-                                                            <section className='conversation'>
-                                                                <h6>Discovery Call</h6>
-                                                                <section className='calendar'>
-                                                                    <img src="./images/calendar.png" alt="calendar" />
-                                                                    <span>April 2023</span>
-                                                                </section>
-                                                            </section>
-
-                                                            <section className='conversation'>
-                                                                <h6>Purchase</h6>
-                                                                <section className='calendar'>
-                                                                    <img src="./images/calendar.png" alt="calendar" />
-                                                                    <span>June 2022</span>
-                                                                </section>
-                                                            </section>
-
-                                                            <section className='conversation'>
-                                                                <h6>Attended Conference</h6>
-                                                                <section className='calendar'>
-                                                                    <img src="./images/calendar.png" alt="calendar" />
-                                                                    <span>Dec 2021</span>
-                                                                </section>
-                                                            </section>
-                                                        </section>
-                                                    </section>
-
-                                                    <section className='conversations-box'>
-                                                        <hr />
-                                                        <section className="conversations">
-                                                            <section className='conversation'>
-                                                                <h6>Upgrade</h6>
-                                                                <section className='calendar'>
-                                                                    <img src="./images/calendar.png" alt="calendar" />
-                                                                    <span>June 2024</span>
-                                                                </section>
-                                                            </section>
-
-                                                            <section className='conversation'>
-                                                                <h6>Discovery Call</h6>
-                                                                <section className='calendar'>
-                                                                    <img src="./images/calendar.png" alt="calendar" />
-                                                                    <span>April 2023</span>
-                                                                </section>
-                                                            </section>
-
-                                                            <section className='conversation'>
-                                                                <h6>Purchase</h6>
-                                                                <section className='calendar'>
-                                                                    <img src="./images/calendar.png" alt="calendar" />
-                                                                    <span>June 2022</span>
-                                                                </section>
-                                                            </section>
-
-                                                            <section className='conversation'>
-                                                                <h6>Attended Conference</h6>
-                                                                <section className='calendar'>
-                                                                    <img src="./images/calendar.png" alt="calendar" />
-                                                                    <span>Dec 2021</span>
-                                                                </section>
-                                                            </section>
-                                                        </section>
-                                                    </section>
-
-                                                    <section className='conversations-box'>
-                                                        <hr />
-                                                        <section className="conversations">
-                                                            <section className='conversation'>
-                                                                <h6>Upgrade</h6>
-                                                                <section className='calendar'>
-                                                                    <img src="./images/calendar.png" alt="calendar" />
-                                                                    <span>June 2024</span>
-                                                                </section>
-                                                            </section>
-
-                                                            <section className='conversation'>
-                                                                <h6>Discovery Call</h6>
-                                                                <section className='calendar'>
-                                                                    <img src="./images/calendar.png" alt="calendar" />
-                                                                    <span>April 2023</span>
-                                                                </section>
-                                                            </section>
-
-                                                            <section className='conversation'>
-                                                                <h6>Purchase</h6>
-                                                                <section className='calendar'>
-                                                                    <img src="./images/calendar.png" alt="calendar" />
-                                                                    <span>June 2022</span>
-                                                                </section>
-                                                            </section>
-
-                                                            <section className='conversation'>
-                                                                <h6>Attended Conference</h6>
-                                                                <section className='calendar'>
-                                                                    <img src="./images/calendar.png" alt="calendar" />
-                                                                    <span>Dec 2021</span>
-                                                                </section>
-                                                            </section>
-                                                        </section>
-                                                    </section>
-
-                                                    <section className='conversations-box'>
-                                                        <hr />
-                                                        <section className="conversations">
-                                                            <section className='conversation'>
-                                                                <h6>Upgrade</h6>
-                                                                <section className='calendar'>
-                                                                    <img src="./images/calendar.png" alt="calendar" />
-                                                                    <span>June 2024</span>
-                                                                </section>
-                                                            </section>
-
-                                                            <section className='conversation'>
-                                                                <h6>Discovery Call</h6>
-                                                                <section className='calendar'>
-                                                                    <img src="./images/calendar.png" alt="calendar" />
-                                                                    <span>April 2023</span>
-                                                                </section>
-                                                            </section>
-
-                                                            <section className='conversation'>
-                                                                <h6>Purchase</h6>
-                                                                <section className='calendar'>
-                                                                    <img src="./images/calendar.png" alt="calendar" />
-                                                                    <span>June 2022</span>
-                                                                </section>
-                                                            </section>
-
-                                                            <section className='conversation'>
-                                                                <h6>Attended Conference</h6>
-                                                                <section className='calendar'>
-                                                                    <img src="./images/calendar.png" alt="calendar" />
-                                                                    <span>Dec 2021</span>
-                                                                </section>
-                                                            </section>
-                                                        </section>
-                                                    </section>
-                                                </section>
-                                            </section>
+                                                    <div className="friends">
+                                                        <img src="./images/tomsfriend1.png" alt="friend" />
+                                                        <img src="./images/tomsfriend2.png" alt="friend" />
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </section>
                                     </div>
                                 </div>

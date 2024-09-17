@@ -735,3 +735,33 @@
     margin: 0rem 0 8rem;
     padding: 1rem 0 0 .8rem;
 }
+
+/* accountPlanG */
+
+.tabs .tab-indicator4 {
+    position: absolute;
+    width: 6.5rem;
+    height: 2.5rem;
+    background: #ffffff;
+    top: 6.75rem;
+    left: 68.2rem;
+    border-radius: .5rem;
+}
+
+.post {
+    width: 15.2rem;
+    height: 8.57rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: #ffffff;
+    border-radius: 1rem;
+}
+
+.info {
+    width: 100%;
+    display: inherit;
+    flex-direction: column;
+    align-items: flex-start;
+}
